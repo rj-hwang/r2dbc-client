@@ -296,6 +296,7 @@
                             <goal>flatten</goal>
                         </goals>
                         <configuration>
+                            <outputDirectory>${project.build.directory}</outputDirectory>
                             <updatePomFile>true</updatePomFile>
                             <flattenMode>oss</flattenMode>
                             <pomElements>
