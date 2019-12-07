@@ -1,6 +1,16 @@
 R2DBC Client Changelog
 =============================
 
+0.8.0.RJ1
+------------------
+* Upgrade to r2dbc-bom Arabba-RELEASE
+* Upgrade to reactor Dysprosium-SR2
+* Upgrade to spring-boot 2.2.1.RELEASE
+* Upgrade to maven-surefire-plugin 2.22.2
+* Upgrade to json-path 2.4.0
+* Upgrade to testcontainers-bom 1.12.4
+* Move flatten-maven-plugin outputDirectory to build directory
+
 0.8.0.RC1
 ------------------
 * Release 0.8.0.RC1 #62.
