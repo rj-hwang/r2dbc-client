@@ -441,6 +441,32 @@
                 </repository>
             </repositories>
         </profile>
+    <!-- deploy-lan: Configuration for deploy to LAN nexus repository -->
+        <profile>
+          <id>lan</id>
+          <distributionManagement>
+            <repository>
+              <id>lan</id>
+              <url>${lan-release-url}</url>
+            </repository>
+            <snapshotRepository>
+              <id>lan</id>
+              <url>${lan-snapshot-url}</url>
+            </snapshotRepository>
+          </distributionManagement>
+          <build>
+            <plugins>
+              <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+              </plugin>
+              <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+              </plugin>
+            </plugins>
+          </build>
+        </profile>
     </profiles>
 
 </project>
