@@ -41,7 +41,7 @@
         <postgresql.version>42.2.10</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <r2dbc-bom.version>Arabba-RELEASE</r2dbc-bom.version>
+        <r2dbc-bom.version>Arabba-SR2</r2dbc-bom.version>
         <r2dbc-spi-test.version>0.8.1.RELEASE</r2dbc-spi-test.version>
         <reactor.version>Dysprosium-SR4</reactor.version>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
