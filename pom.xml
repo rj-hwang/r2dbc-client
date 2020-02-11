@@ -37,7 +37,7 @@
         <junit.version>5.5.2</junit.version>
         <logback.version>1.2.3</logback.version>
         <mssql-jdbc.version>7.2.2.jre8</mssql-jdbc.version>
-        <mysql.version>8.0.16</mysql.version>
+        <mysql.version>8.0.19</mysql.version>
         <postgresql.version>42.2.10</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
