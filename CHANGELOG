@@ -1,6 +1,18 @@
 R2DBC Client Changelog
 =============================
 
+0.8.0.RJ2
+------------------
+* Upgrade to assertj-3.15.0
+* Upgrade to testcontainers-1.12.5
+* Upgrade to r2dbc-bom-Arabba-SR2
+* Upgrade to r2dbc-spi-test-0.8.1.RELEASE
+* Upgrade to reactor-Dysprosium-SR4
+* Upgrade to spring-boot-2.2.4
+* Upgrade to junit-5.6.0
+* Upgrade to mysql-8.0.19
+* Upgrade to postgres-driver-42.2.10
+
 0.8.0.RJ1
 ------------------
 * Upgrade to r2dbc-bom Arabba-RELEASE
